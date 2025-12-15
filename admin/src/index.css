@@ -1,0 +1,9 @@
+html, body, #root {
+  height: 100%;
+}
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
