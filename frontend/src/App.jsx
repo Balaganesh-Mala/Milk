@@ -12,6 +12,7 @@ import AccountPage from "./pages/AccountPage";
 import EditProfile from "./pages/EditProfile.jsx";
 import CheckoutPage from "./pages/CheckoutPage";
 import Footer from "./components/layout/Footer";
+import MobileBottomNav from "./components/layout/MobileBottomNav.jsx";
 
 import EditAddressPage from "./pages/EditAddressPage.jsx";
 import Subscriptions from "./pages/Subscriptions.jsx";
@@ -45,6 +46,7 @@ export default function App() {
           element={<div className="p-20 text-center">404 - Page Not Found</div>}
         />
       </Routes>
+      <MobileBottomNav />
       <Footer />
     </>
   );
